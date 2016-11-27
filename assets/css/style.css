@@ -1,0 +1,1116 @@
+@charset "UTF-8";
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* line 4, ../scss/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../scss/_base.scss */
+html {
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans, Open Sans, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  background: #ffffff;
+  text-decoration: none;
+  color: #666666;
+  -webkit-text-size-adjust: none;
+}
+@media screen and (min-width: 800px) {
+  /* line 9, ../scss/_base.scss */
+  html {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+/* line 22, ../scss/_base.scss */
+html, body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'JosefinSansStd-Light';
+  src: url("../font/JosefinSansStd-Light/JosefinSansStd-Light.eot");
+  src: url("../font/JosefinSansStd-Light/JosefinSansStd-Light.eot?iefix") format("eot"), url("../font/JosefinSansStd-Light/JosefinSansStd-Light.woff") format("woff"), url("../font/JosefinSansStd-Light/JosefinSansStd-Light.ttf") format("truetype"), url("../font/JosefinSansStd-Light/JosefinSansStd-Light.svg#webfontjSpbZQRv") format("svg");
+}
+@font-face {
+  font-family: 'Josefin-Sans';
+  src: url("../font/webfonts_Josefin-Sans/Josefin-Sans.ttf.woff") format("woff"), url("../font/webfonts_Josefin-Sans/Josefin-Sans.ttf.svg#Josefin-Sans") format("svg"), url("../font/webfonts_Josefin-Sans/Josefin-Sans.ttf.eot"), url("../font/webfonts_Josefin-Sans/Josefin-Sans.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 39, ../scss/_base.scss */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* line 44, ../scss/_base.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 48, ../scss/_base.scss */
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+/* line 52, ../scss/_base.scss */
+ul, ol {
+  list-style: none;
+}
+
+/* line 56, ../scss/_base.scss */
+img {
+  vertical-align: top;
+  max-width: 100%;
+  border: 0;
+}
+
+/* line 62, ../scss/_base.scss */
+p {
+  line-height: 26px;
+}
+
+/* line 66, ../scss/_base.scss */
+#wrap {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+/* line 73, ../scss/_base.scss */
+.clearfix:after {
+  height: 0;
+  visibility: hidden;
+  content: ".";
+  display: block;
+  clear: both;
+}
+
+/* CSS Document */
+/* line 5, ../scss/_common.scss */
+header {
+  padding: 16px 0;
+  height: 37px;
+}
+@media screen and (min-width: 800px) {
+  /* line 5, ../scss/_common.scss */
+  header {
+    padding: 21px 0;
+    margin: 0 auto;
+    height: 50px;
+    border-bottom: solid 1px #cacccd;
+  }
+}
+/* line 15, ../scss/_common.scss */
+header img {
+  width: 150px;
+  padding-top: 0px;
+}
+@media screen and (min-width: 800px) {
+  /* line 15, ../scss/_common.scss */
+  header img {
+    margin: 0;
+  }
+}
+
+/* line 24, ../scss/_common.scss */
+.sticky-wrapper {
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  right: 0;
+  overflow: hidden;
+  border-bottom: solid 1px #cacccd;
+}
+@media screen and (min-width: 800px) {
+  /* line 24, ../scss/_common.scss */
+  .sticky-wrapper {
+    padding: 12px 0;
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+/* line 40, ../scss/_common.scss */
+#mobile-nav {
+  display: block;
+  float: right;
+  padding: 17px;
+}
+
+/* line 48, ../scss/_common.scss */
+.menu-nav {
+  display: block;
+  background: url(../img/icon_menu.png) 0 0 no-repeat;
+  background-size: 100%;
+  width: 26px;
+  height: 26px;
+  margin-top: 4px;
+  /*margin: 22px 0 0 0;*/
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 250ms ease-out 0s;
+  -moz-transition: -moz-transform 250ms ease-out 0s;
+  -o-transition: -o-transform 250ms ease-out 0s;
+  transition: transform 250ms ease-out 0s;
+}
+
+/* line 67, ../scss/_common.scss */
+.change {
+  background: url(../img/icon_close.png) 0 0 no-repeat;
+  background-size: 100%;
+  width: 26px;
+  height: 26px;
+  display: block;
+}
+
+/* line 75, ../scss/_common.scss */
+.drawer {
+  display: none;
+  -webkit-transition: -webkit-transform 0.25s linear;
+  -moz-transition: -moz-transform 0.25s linear;
+  -o-transition: -o-transform 0.25s linear;
+  transition: transform 0.25s linear;
+}
+
+/* line 90, ../scss/_common.scss */
+.drawer a:hover {
+  color: #cccccc;
+  background-color: #333333;
+}
+
+/* line 95, ../scss/_common.scss */
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 112, ../scss/_common.scss */
+  nav {
+    margin-top: 16px;
+  }
+}
+/* line 116, ../scss/_common.scss */
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+/* line 119, ../scss/_common.scss */
+nav ul li {
+  width: 100%;
+  float: left;
+}
+@media screen and (min-width: 800px) {
+  /* line 119, ../scss/_common.scss */
+  nav ul li {
+    color: #000;
+    width: auto;
+    margin-left: 50px;
+    float: left;
+  }
+}
+/* line 128, ../scss/_common.scss */
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  background: black;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  font-family: 'Josefin Sans', 'Josefin-Sans' sans-serif;
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  /* line 128, ../scss/_common.scss */
+  nav ul li a {
+    background: white;
+    color: #000000;
+    margin: 5px 0 0 0;
+    padding: 0;
+    text-align: right;
+    font-family: 'Josefin-Sans', JosefinSansStd-Light, 'Josefin Sans', sans-serif;
+  }
+}
+
+/* line 151, ../scss/_common.scss */
+.clk_head_top {
+  font-size: 32px;
+  line-height: 1;
+  float: left;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 5%;
+}
+/* line 156, ../scss/_common.scss */
+.clk_head_top a {
+  display: block;
+  padding: 16px 0;
+}
+@media screen and (min-width: 800px) {
+  /* line 156, ../scss/_common.scss */
+  .clk_head_top a {
+    padding: 0;
+    margin: 16px 0;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 151, ../scss/_common.scss */
+  .clk_head_top {
+    margin: 0;
+  }
+}
+
+/* line 169, ../scss/_common.scss */
+.spNone {
+  display: none;
+}
+@media screen and (min-width: 800px) {
+  /* line 169, ../scss/_common.scss */
+  .spNone {
+    display: block;
+    color: #454545;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  /* line 177, ../scss/_common.scss */
+  .right-align {
+    float: right;
+    height: 0;
+  }
+
+  /* line 182, ../scss/_common.scss */
+  .right-align a:hover {
+    opacity: 0.5;
+  }
+
+  /* line 186, ../scss/_common.scss */
+  .right-align a:hover .font-portfolio {
+    color: #ff4a2c;
+    height: 0;
+  }
+
+  /* line 191, ../scss/_common.scss */
+  .right-align a:hover .font-memo {
+    color: #45c01b;
+    height: 0;
+  }
+
+  /* line 196, ../scss/_common.scss */
+  .right-align a:hover .font-about {
+    color: #4568b8;
+    height: 0;
+  }
+
+  /* line 201, ../scss/_common.scss */
+  .right-align a:hover .font-contact {
+    color: #edc42f;
+    height: 0;
+  }
+
+  /* line 206, ../scss/_common.scss */
+  .drawer, .pcNone {
+    display: none;
+  }
+}
+/* line 216, ../scss/_common.scss */
+footer {
+  margin-top: 100px;
+  padding: 20px 0;
+  color: #ffffff;
+  text-align: center;
+  background-color: #333333;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* line 239, ../scss/_common.scss */
+.padding-t30 {
+  padding-top: 30px;
+}
+
+/* line 243, ../scss/_common.scss */
+.margin-sm-t30 {
+  margin-top: 30px;
+}
+
+/* line 249, ../scss/_common.scss */
+.margin-t20 {
+  margin-top: 20px;
+}
+
+/* line 253, ../scss/_common.scss */
+.about-title {
+  margin: 20px 0;
+}
+
+/* line 257, ../scss/_common.scss */
+.margin-b4 {
+  margin-bottom: 4px;
+}
+
+/* line 261, ../scss/_common.scss */
+.margin-b10 {
+  margin-bottom: 10px;
+}
+
+/* line 266, ../scss/_common.scss */
+.margin-b40 {
+  margin-bottom: 40px;
+}
+
+/* line 270, ../scss/_common.scss */
+.margin-sm-b40 {
+  margin-bottom: 40px;
+}
+
+/* line 274, ../scss/_common.scss */
+.margin-about-title {
+  margin-top: 20px;
+}
+@media screen and (min-width: 800px) {
+  /* line 274, ../scss/_common.scss */
+  .margin-about-title {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  /* line 283, ../scss/_common.scss */
+  .margin-lg-b40 {
+    margin-bottom: 10px;
+  }
+
+  /* line 287, ../scss/_common.scss */
+  .margin-b45 {
+    margin-bottom: 45px;
+  }
+}
+/* line 296, ../scss/_common.scss */
+.border-t1 {
+  border-top: 1px dotted #cccccc;
+}
+
+/* line 300, ../scss/_common.scss */
+.border-b1 {
+  border-bottom: 1px dotted #cccccc;
+}
+
+/* line 304, ../scss/_common.scss */
+.border-b3 {
+  border-bottom: 3px double #cccccc;
+}
+
+/* line 308, ../scss/_common.scss */
+.border-l1 {
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* line 318, ../scss/_common.scss */
+.box {
+  margin-top: 40px;
+}
+@media screen and (min-width: 800px) {
+  /* line 318, ../scss/_common.scss */
+  .box {
+    margin-top: 60px;
+  }
+}
+
+/* line 328, ../scss/_common.scss */
+.f-red {
+  color: #c11414;
+}
+
+/* line 333, ../scss/_common.scss */
+.f-bold {
+  font-weight: bold;
+}
+
+/* line 338, ../scss/_common.scss */
+.t-center {
+  text-align: center;
+}
+
+/* line 348, ../scss/_common.scss */
+#contents {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+@media screen and (min-width: 800px) {
+  /* line 348, ../scss/_common.scss */
+  #contents {
+    width: 800px;
+  }
+}
+/* line 355, ../scss/_common.scss */
+#contents .element:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/* line 359, ../scss/_common.scss */
+#contents .element-sec:last-child {
+  padding-bottom: 0px;
+}
+
+/* line 364, ../scss/_common.scss */
+.element {
+  font-family: verdana, Helvetica, verdana, sans-serif;
+  font-weight: normal;
+  padding-bottom: 40px;
+  margin-bottom: 34px;
+}
+
+/* line 371, ../scss/_common.scss */
+.element-sec {
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 800px) {
+  /* line 371, ../scss/_common.scss */
+  .element-sec {
+    padding-bottom: 40px;
+  }
+}
+
+/* line 384, ../scss/_common.scss */
+.category-title {
+  font-size: 28px;
+  line-height: 1.3333;
+  color: #383838;
+  margin: 28px 0 23px;
+  text-align: center;
+  font-family: 'Josefin Sans', 'Josefin-Sans' sans-serif;
+}
+/* line 390, ../scss/_common.scss */
+.category-title .category-title-explain {
+  font-size: 18px;
+  line-height: 1.3333;
+}
+@media screen and (min-width: 800px) {
+  /* line 384, ../scss/_common.scss */
+  .category-title {
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #000000;
+    font-family: 'Josefin-Sans', JosefinSansStd-Light, 'Josefin Sans', sans-serif;
+  }
+}
+
+/* line 407, ../scss/_common.scss */
+.memo-details-title {
+  font-weight: bold;
+  /*margin-left:15px;*/
+  font-size: 22px;
+  line-height: 1.3333;
+  margin-bottom: 0;
+  color: #454545;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 800px) {
+  /* line 407, ../scss/_common.scss */
+  .memo-details-title {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 18px;
+  }
+}
+
+/* line 422, ../scss/_common.scss */
+.sec-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Arial;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 4px;
+}
+@media screen and (min-width: 800px) {
+  /* line 422, ../scss/_common.scss */
+  .sec-title {
+    font-size: 24px;
+    line-height: 1.3333;
+    font-weight: normal;
+    margin: 10px 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 436, ../scss/_common.scss */
+.div-title {
+  font-size: 18px;
+  line-height: 1.3333;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 800px) {
+  /* line 436, ../scss/_common.scss */
+  .div-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 10px 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 454, ../scss/_common.scss */
+.detailes-readtext {
+  border-bottom: 1px dotted #cccccc;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 800px) {
+  /* line 454, ../scss/_common.scss */
+  .detailes-readtext {
+    margin-bottom: 60px;
+    padding-bottom: 70px;
+  }
+}
+
+/* line 464, ../scss/_common.scss */
+.post-meta {
+  display: -webkit-box;
+  overflow: hidden;
+  font-family: verdana, Helvetica, verdana, sans-serif;
+}
+
+/* line 470, ../scss/_common.scss */
+.detailes-title-post-meta {
+  display: -webkit-box;
+  overflow: hidden;
+  font-family: verdana, Helvetica, verdana, sans-serif;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 3px double #cccccc;
+}
+@media screen and (min-width: 800px) {
+  /* line 470, ../scss/_common.scss */
+  .detailes-title-post-meta {
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+/* line 483, ../scss/_common.scss */
+.time {
+  display: -webkit-box;
+  color: #666666;
+  font-weight: normal;
+  font-size: 14px;
+}
+@media screen and (min-width: 800px) {
+  /* line 483, ../scss/_common.scss */
+  .time {
+    font-size: 16px;
+  }
+}
+
+/* line 493, ../scss/_common.scss */
+.tag {
+  background-color: #bbbbbb;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 4px;
+  margin-left: 6px;
+}
+@media screen and (min-width: 800px) {
+  /* line 493, ../scss/_common.scss */
+  .tag {
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+}
+
+/* line 506, ../scss/_common.scss */
+.list_circle {
+  list-style-type: circle;
+  margin-left: 12%;
+}
+
+/* line 511, ../scss/_common.scss */
+.sub-sec-title {
+  margin-bottom: 20px;
+}
+
+/* line 515, ../scss/_common.scss */
+.ul-lh {
+  line-height: 26px;
+}
+
+/* CSS Document */
+/* line 4, ../scss/_home.scss */
+.works {
+  font-family: Helvetica, verdana, sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+/* line 12, ../scss/_home.scss */
+.works a:hover {
+  opacity: 0.75;
+}
+/* line 16, ../scss/_home.scss */
+.works img {
+  width: 140px;
+  margin-bottom: 4px;
+}
+@media screen and (min-width: 800px) {
+  /* line 16, ../scss/_home.scss */
+  .works img {
+    width: 190px;
+  }
+}
+
+/* line 29, ../scss/_home.scss */
+.portfolio-table {
+  margin: 0 auto;
+}
+
+/* line 33, ../scss/_home.scss */
+.portfolio-table a {
+  /*float:left;*/
+}
+
+/* line 37, ../scss/_home.scss */
+.works-main {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 800px) {
+  /* line 37, ../scss/_home.scss */
+  .works-main {
+    margin-bottom: 10px;
+  }
+}
+/* line 45, ../scss/_home.scss */
+.works-main img {
+  display: block;
+  /*text-align: center;*/
+  margin: 0 auto;
+  width: 100% 100%;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 800px) {
+  /* line 45, ../scss/_home.scss */
+  .works-main img {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  /* line 58, ../scss/_home.scss */
+  .box-left {
+    float: left;
+    width: 500px;
+  }
+}
+
+/* line 65, ../scss/_home.scss */
+.works_sub {
+  margin-top: 34px;
+}
+@media screen and (min-width: 800px) {
+  /* line 65, ../scss/_home.scss */
+  .works_sub {
+    float: left;
+    width: 280px;
+    padding-left: 20px;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 73, ../scss/_home.scss */
+  .works_sub .wrap-text {
+    padding-left: 10px;
+  }
+}
+
+/* line 81, ../scss/_home.scss */
+.works ul {
+  　display: block;
+  text-align: center;
+}
+
+/* line 86, ../scss/_home.scss */
+.works li {
+  display: inline-block;
+}
+
+/* line 91, ../scss/_home.scss */
+.works-table {
+  text-align: left;
+}
+
+/* line 95, ../scss/_home.scss */
+.works-meta {
+  font-family: verdana, Helvetica, verdana, sans-serif;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 3px double #CCC;
+}
+@media screen and (min-width: 800px) {
+  /* line 95, ../scss/_home.scss */
+  .works-meta {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/* line 110, ../scss/_home.scss */
+.works-sub-list {
+  margin-bottom: 30px;
+}
+
+/* CSS Document */
+/* line 5, ../scss/_memo.scss */
+.memo-list {
+  border-bottom: 3px double #cccccc;
+}
+/* line 7, ../scss/_memo.scss */
+.memo-list .memo_line a:hover {
+  opacity: 0.75;
+}
+/* line 10, ../scss/_memo.scss */
+.memo-list a:hover {
+  opacity: 0.75;
+}
+/* line 13, ../scss/_memo.scss */
+.memo-list img {
+  width: 95px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 800px) {
+  /* line 13, ../scss/_memo.scss */
+  .memo-list img {
+    width: 200px;
+  }
+}
+
+/* line 26, ../scss/_memo.scss */
+.memo-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  font-family: Helvetica, verdana, sans-serif;
+  font-weight: normal;
+}
+
+/* line 34, ../scss/_memo.scss */
+.memo-link {
+  margin: 23px 0;
+  display: block;
+}
+@media screen and (min-width: 800px) {
+  /* line 34, ../scss/_memo.scss */
+  .memo-link {
+    margin: 60px 0;
+  }
+}
+
+/* line 43, ../scss/_memo.scss */
+.memo-right {
+  width: 70%;
+  margin-left: 4%;
+}
+
+/* line 53, ../scss/_memo.scss */
+.memo-details-titleBox {
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 800px) {
+  /* line 53, ../scss/_memo.scss */
+  .memo-details-titleBox {
+    margin: 60px 0;
+  }
+}
+
+/* line 63, ../scss/_memo.scss */
+.image-01 img {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 69, ../scss/_memo.scss */
+.button-sam {
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 800px) {
+  /* line 69, ../scss/_memo.scss */
+  .button-sam {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 9, memo_test.scss */
+/* line 77, ../scss/_memo.scss */
+.button-sam span {
+  padding: 7px 11px 8px 11px;
+  margin: 0 5px 5px 5px;
+  background: #EFF0F2;
+  border-radius: 4px;
+  /*border-top: 1px solid whitesmoke;*/
+  box-shadow: 0 0 25px #d9d9d9 inset, 0 1px 0 #cccccc, 0 2px 0 #d6d6d6, 0 2px 1px #555555;
+  color: #4d4d4d;
+  text-shadow: 0 1px 0 #ffffff;
+  font: bold 14px arial;
+  text-align: center;
+  /*line-height: 1;*/
+  font-weight: normal;
+  display: -moz-inline-stack;
+  display: inline-block;
+  /*vertical-align: middle;*/
+  zoom: 1;
+  font-family: verdana, Helvetica, verdana, sans-serif;
+}
+
+/* line 97, ../scss/_memo.scss */
+.memo-text {
+  color: #333333;
+  font-weight: normal;
+  line-height: 26px;
+  overflow: hidden;
+  font-family: verdana, Helvetica, verdana, sans-serif;
+}
+
+/* line 105, ../scss/_memo.scss */
+.memo-sam img {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+/* line 110, ../scss/_memo.scss */
+.memo-list-text {
+  margin-bottom: 14px;
+}
+
+/* CSS Document */
+/* line 6, ../scss/_about.scss */
+.profile-table {
+  display: table;
+  font-weight: normal;
+  line-height: 26px;
+  overflow: hidden;
+  margin-top: 20px;
+  font-family: verdana, Helvetica, verdana, sans-serif;
+}
+/* line 13, ../scss/_about.scss */
+.profile-table .blue {
+  display: table-cell;
+  color: #4568B8;
+  width: 80px;
+}
+/* line 18, ../scss/_about.scss */
+.profile-table ul {
+  margin-left: 80px;
+}
+/* line 22, ../scss/_about.scss */
+.profile-table li:after {
+  content: ", ";
+}
+/* line 25, ../scss/_about.scss */
+.profile-table li:last-child:after {
+  content: "";
+}
+@media screen and (min-width: 800px) {
+  /* line 21, ../scss/_about.scss */
+  .profile-table li {
+    display: inline;
+  }
+}
+
+/* line 34, ../scss/_about.scss */
+.profile-img {
+  text-align: center;
+  margin-top: 60px;
+}
+/* line 37, ../scss/_about.scss */
+.profile-img img {
+  width: 220px;
+  border-radius: 300px;
+}
+
+/* line 43, ../scss/_about.scss */
+.icon-skill {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 48, ../scss/_about.scss */
+.icon-skill img {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 24px;
+}
+
+/* line 55, ../scss/_about.scss */
+.timeline > li {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+
+/* line 61, ../scss/_about.scss */
+.timeline-date {
+  width: 380px;
+  float: left;
+}
+@media screen and (min-width: 800px) {
+  /* line 61, ../scss/_about.scss */
+  .timeline-date {
+    margin-top: 20px;
+  }
+}
+
+/* line 69, ../scss/_about.scss */
+.timeline-content {
+  /*width: 75%;*/
+  float: left;
+  border-left: 3px #e9ebf0 solid;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  margin-left: 5px;
+}
+
+/* line 78, ../scss/_about.scss */
+.timeline-content:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #4568B8;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  border-radius: 100%;
+}
+
+/*// .timeline-content h4 {
+//   margin-bottom: 10px;
+// }
+
+// .timeline-time {
+//   margin-bottom: 10px;
+// }*/
+/* line 102, ../scss/_about.scss */
+.timeline .timeline-date p {
+  margin-bottom: 0;
+}
+
+/* line 106, ../scss/_about.scss */
+.profile-box-right {
+  margin-top: 34px;
+}
+@media screen and (min-width: 800px) {
+  /* line 106, ../scss/_about.scss */
+  .profile-box-right {
+    display: table-cell;
+    width: 350px;
+    padding-left: 50px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  /* line 118, ../scss/_about.scss */
+  .profile-box {
+    display: table;
+  }
+
+  /* line 123, ../scss/_about.scss */
+  .profile-box-left {
+    /*    width: 350px;
+    */
+  }
+
+  /* line 127, ../scss/_about.scss */
+  .timeline .timeline-date p {
+    margin-bottom: 0;
+  }
+}
+/* line 132, ../scss/_about.scss */
+.border-b-about {
+  border-bottom: 1px dotted #cccccc;
+}
+@media screen and (min-width: 800px) {
+  /* line 132, ../scss/_about.scss */
+  .border-b-about {
+    border: none;
+  }
+}
+
+/* line 139, ../scss/_about.scss */
+.skill-chart {
+  width: 300px;
+}
+
+/* CSS Document */
+/* line 4, ../scss/_contact.scss */
+.message {
+  display: table;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+/* line 10, ../scss/_contact.scss */
+.message a {
+  float: left;
+  margin: 0 10px;
+}
+
+/* line 16, ../scss/_contact.scss */
+.message-table {
+  margin: 0 auto;
+}
+
+/* line 20, ../scss/_contact.scss */
+.message-icon {
+  display: block;
+  text-indent: -9999px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+/* line 28, ../scss/_contact.scss */
+a#link-mail {
+  background: url(../img/icon-sns-mail.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+/* line 33, ../scss/_contact.scss */
+a#link-mail:hover {
+  background-position: left bottom;
+}
+
+/* line 37, ../scss/_contact.scss */
+a#link-fb {
+  background: url(../img/icon-sns-fb.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+/* line 42, ../scss/_contact.scss */
+a#link-fb:hover {
+  background-position: left bottom;
+}

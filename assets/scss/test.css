@@ -1,0 +1,17 @@
+@charset "UTF-8"
+
+.hoge1{
+
+    color:#333;
+    background-color: #f00;
+    width:300px;
+
+}
+
+.hoge2A{
+	background-color:#000000;
+}
+
+.hoge2B{
+	background-color:#fff;
+}
