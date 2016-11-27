@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+
+//====================================================================================== about details ▼
+
+.profile-table {
+  display:table;
+  font-weight: normal;
+  line-height: 26px;
+  overflow: hidden;
+  margin-top: 20px;
+  font-family: verdana, Helvetica, verdana, sans-serif;
+      .blue {
+      display: table-cell;
+      color: #4568B8;
+      width:80px;
+      }
+      ul{
+      margin-left: 80px;
+      }
+      li{
+        &:after {
+          content: ", ";
+        }
+        &:last-child:after {
+        content: "";
+        }
+        @media screen and (min-width: $break-large) {
+          display: inline;
+        }
+      }
+}
+
+.profile-img {
+  text-align: center;
+  margin-top:60px;
+    img {
+      width: 220px;
+      border-radius: 300px;
+    }
+}
+
+.icon-skill {
+  display: block;
+  // padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+    img {
+      width: 65px;
+      height: 65px;
+      margin-bottom: 24px;
+    }
+}
+
+.timeline > li {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+
+.timeline-date {
+  width: 380px;
+  float: left;
+        @media screen and (min-width: $break-large) {
+          margin-top: 20px;
+        }
+}
+
+.timeline-content {
+  /*width: 75%;*/
+  float: left;
+  border-left: 3px #e9ebf0 solid;
+  padding-left: 30px;
+  padding-bottom:20px;
+  margin-left: 5px;
+}
+
+.timeline-content:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #4568B8;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  border-radius: 100%;
+}
+
+
+    
+
+
+/*// .timeline-content h4 {
+//   margin-bottom: 10px;
+// }
+
+// .timeline-time {
+//   margin-bottom: 10px;
+// }*/
+
+
+.timeline .timeline-date p {
+  margin-bottom: 0;
+}
+
+ .profile-box-right {
+    margin-top: 34px;
+@media screen and (min-width: $break-large) {
+  	display: table-cell;
+    width: 350px;
+    padding-left: 50px;    
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width: $break-large) {
+  .profile-box {
+    // margin-top: 50px;
+    display: table;
+  }
+
+  .profile-box-left {
+/*    width: 350px;
+*/  }
+
+  .timeline .timeline-date p {
+    margin-bottom: 0;
+  }
+}
+
+.border-b-about{
+    border-bottom: 1px dotted #cccccc;  
+    @media screen and (min-width: $break-large) {
+  border: none;  
+    } 
+}
+
+.skill-chart{
+  width:300px;
+}
+
+
+//====================================================================================== about details ▲
+
+
+

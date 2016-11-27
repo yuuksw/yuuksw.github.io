@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+* {
+  margin: 0;
+  padding: 0;
+/*  font-size:20px;
+*/}
+
+.box {
+  display: table;
+}
+
+
+ .works_sub {
+    display: table-cell;
+    width: 350px;
+    padding-left: 50px;    
+    margin-top: 0;
+  }
+

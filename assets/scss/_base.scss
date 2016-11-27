@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans, Open Sans, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	@include fs16;
+	font-weight: normal;
+	background: $white;
+	text-decoration: none;
+	color: $lightgray2;
+	-webkit-text-size-adjust: none;
+    @media screen and (min-width: $break-large) {
+  @include fs15;
+}
+}
+
+html,body{
+  height:100%;
+}
+
+@font-face {
+  font-family: 'JosefinSansStd-Light';
+  src: url("../font/JosefinSansStd-Light/JosefinSansStd-Light.eot");
+  src: url("../font/JosefinSansStd-Light/JosefinSansStd-Light.eot?iefix") format("eot"), url("../font/JosefinSansStd-Light/JosefinSansStd-Light.woff") format("woff"), url("../font/JosefinSansStd-Light/JosefinSansStd-Light.ttf") format("truetype"), url("../font/JosefinSansStd-Light/JosefinSansStd-Light.svg#webfontjSpbZQRv") format("svg");
+}
+
+@font-face {
+  font-family: 'Josefin-Sans';
+  src: url("../font/webfonts_Josefin-Sans/Josefin-Sans.ttf.woff") format("woff"), url("../font/webfonts_Josefin-Sans/Josefin-Sans.ttf.svg#Josefin-Sans") format("svg"), url("../font/webfonts_Josefin-Sans/Josefin-Sans.ttf.eot"), url("../font/webfonts_Josefin-Sans/Josefin-Sans.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  border: 0;
+}
+
+p{
+  line-height:26px;
+}
+
+#wrap{
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.clearfix:after {
+  height: 0;
+  visibility: hidden;
+  content: ".";
+  display: block;
+  clear: both;
+}
