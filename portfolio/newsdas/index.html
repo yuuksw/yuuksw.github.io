@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width maximum-scale=1.0">
+  <title>YUUKI SAWASATO Portfolio Newsdas スマホサイト</title>  
+  <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="../../assets/js/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../assets/slick/slick.css" media="all">
+</head>
+<body>
+
+  <div id="wrap">
+
+    <!-- header -->
+    <header>
+      <div class="sticky-wrapper">
+        <h1 class="clk_head_top"><a href="../../index.html"><img src="../../assets/img/logo.png" alt="ロゴ"></a></h1>
+        <div class="pcNone"><a id="mobile-nav" href="#"><span class="menu-nav"></span></a></div>
+        <nav class="spNone right-align">
+          <ul>
+            <li><a href="../../index.html#portfolio">Portfolio</a></li>
+            <li><a href="../../index.html#about">About</a></li>
+            <li><a href="../../index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>    
+    </header>
+    <!-- //header -->
+
+    <!-- dropdown menu -->
+    <div>
+      <nav class="drawer">
+        <ul>
+          <li><a href="../../index.html#portfolio">Portfolio</a></li>
+          <li><a href="../../index.html#about">About</a></li>
+          <li><a href="../../index.html#contact" class="border-l1">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- //dropdown menu -->
+
+    <!--contentns-->
+    <div id="contents">
+      <div id="main">
+
+        <div class="box clearfix">
+          <div class="box-left">
+            <div class="slide_selector slider single-item">
+              <div><img src="assets/img/Newsdas.jpg" alt="Newsdas スマホサイト-1"></div>
+            </div>
+          </div>
+
+          <div class="works_sub">
+            <div class="wrap-text">
+              <div id="works_title">
+                <h2 class="sec-title">Newsdas スマホサイト</h2>
+                <div class="works-meta">
+                  <ul class="ul-lh">
+                    <li>制作内容：スマホサイト</li>
+                    <li>対応機種：iOS/Android</li>
+                    <li>制作期間：2013年11月〜現在</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <div class="margin-b10">担当：プロジェクトリーダー兼UI/UXデザイナー</div>
+                <ul class="list_circle works-sub-list">
+                  <li>サービスコンセプト構築</li>
+                  <li>ユーザー体験構築</li>
+                  <li>機能決定</li>
+                  <li>サイト設計</li>
+                  <li>表層デザイン</li>
+                  <li>制作ディレクション</li>
+                </ul>
+                <div class="margin-b10">他メンバー</div>
+                <ul class="list_circle works-sub-list">
+                  <li>企画：1名（別事業部）</li>
+                  <li>IA：1名</li>
+                  <li>デザイン補助：1名</li>
+                  <li>開発（社外）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="padding-t30 border-t1">
+          <p>ユーザーに更なる価値を提供できるよう、サービスコンセプトの見直しから表層デザインまでの工程一連をプロジェクトリーダーとして担当。メンバーと密にコミュニケーションをとり、滞りなくリリースへ導くことが出来た。</p>
+          <p class="margin-t20">余計な装飾は排除しシンプルで流し読みしても読みやすいデザインにした。</p>
+          <p class="margin-t20">現在、更なる改善施策を実施中。</p>
+        </div>
+
+      </div>
+    </div>
+    <!--//contents-->
+
+    <!-- footer -->
+    <footer>
+      <p><small>2009-2015&copy; YUUKI SAWASATO</small></p>
+    </footer>
+    <!-- //footer -->
+
+  </div>
+  <!-- //wrap -->
+
+  <script type="text/javascript" src="../../assets/slick/slick.js"></script>
+  <script type="text/javascript" src="../../assets/js/scripts.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $(".sticky-wrapper").noisy({
+        intensity: 0.2,
+        opacity: 0.06,
+      });
+    });
+    $("#mobile-nav").click(function(e){
+      $(".drawer").toggleClass("active");
+      e.preventDefault();
+      $(".menu-nav").toggleClass("change");      
+    });
+  </script>
+
+</body>
+</html>
