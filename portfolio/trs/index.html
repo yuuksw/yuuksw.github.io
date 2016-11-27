@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width maximum-scale=1.0">
+  <title>YUUKI SAWASATO Portfolio トゥルースリーパースマホサイト</title>  
+  <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="../../assets/js/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../assets/slick/slick.css" media="all">
+</head>
+<body>
+
+  <div id="wrap">
+
+    <!-- header -->
+    <header>
+      <div class="sticky-wrapper">
+        <h1 class="clk_head_top"><a href="../../index.html"><img src="../../assets/img/logo.png" alt="ロゴ"></a></h1>
+        <div class="pcNone"><a id="mobile-nav" href="#"><span class="menu-nav"></span></a></div>
+        <nav class="spNone right-align">
+          <ul>
+            <li><a href="../../index.html#portfolio">Portfolio</a></li>
+            <li><a href="../../index.html#about">About</a></li>
+            <li><a href="../../index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>    
+    </header>
+    <!-- //header -->
+
+    <!-- dropdown menu -->
+    <div>
+      <nav class="drawer">
+        <ul>
+          <li><a href="../../index.html#portfolio">Portfolio</a></li>
+          <li><a href="../../index.html#about">About</a></li>
+          <li><a href="../../index.html#contact" class="border-l1">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- //dropdown menu -->
+
+    <!--contentns-->
+    <div id="contents">
+      <div id="main">
+
+        <div class="box clearfix">
+          <div class="box-left">
+            <div class="slide_selector slider single-item">
+              <div><img src="assets/img/trs-1.jpg" alt="トゥルースリーパースマホサイト-1"></div>
+              <div><img src="assets/img/trs-2.jpg" alt="トゥルースリーパースマホサイト-2"></div>
+            </div>
+          </div>
+
+          <div class="works_sub">
+            <div class="wrap-text">
+              <div id="works_title">
+                <h2 class="sec-title">トゥルースリーパースマホサイト</h2>
+                <div class="works-meta">
+                  <ul class="ul-lh">
+                    <li>制作内容：スマホサイト</li>
+                    <li>対応機種：iOS/Android</li>
+                    <li>制作期間：2014年10月〜2014年12月</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <div class="margin-b10">担当：プロジェクトリーダー兼UI/UXデザイナー</div>
+                <ul class="list_circle works-sub-list">
+                  <li>ユーザー体験構築</li>
+                  <li>サイト設計</li>
+                  <li>表層デザイン補助</li>
+                  <li>コーディング補助</li>
+                  <li>制作ディクレション</li>
+                  <li>社外コーダーディレクション</li>
+                  <li>社外クライアントとの折衝</li>
+                </ul>
+                <div class="margin-b10">他メンバー</div>
+                <ul class="list_circle works-sub-list">
+                  <li>デザイナー：1名</li>
+                  <li>制作補助：1名</li>
+                  <li>コーダー：1名（社外）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="padding-t30 border-t1">
+          <p>オークローンマーケティング社が運営する公式サイトをスマホに最適化。プロジェクトリーダーとして、内部と外部のリソースや役割を明確化し、タイトなスケジュールの中、遅延することなくリリースへ導くことが出来た。</p>
+          <p class="margin-t20">クライアントへ今後の運用のヒアリングや改善提案を実施中。</p>
+        </div>
+
+      </div>
+    </div>
+    <!--//contents-->
+
+    <!-- footer -->
+    <footer>
+      <p><small>2009-2015&copy; YUUKI SAWASATO</small></p>
+    </footer>
+    <!-- //footer -->
+
+  </div>
+  <!-- //wrap -->
+
+  <script type="text/javascript" src="../../assets/slick/slick.js"></script>
+  <script type="text/javascript" src="../../assets/js/scripts.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $(".sticky-wrapper").noisy({
+        intensity: 0.2,
+        opacity: 0.06,
+      });
+    });
+    $("#mobile-nav").click(function(e){
+      $(".drawer").toggleClass("active");
+      e.preventDefault();
+      $(".menu-nav").toggleClass("change");      
+    });
+  </script>
+
+</body>
+</html>
