@@ -2,14 +2,14 @@
  $(function() {
         // レーダーチャートで表示するデータを用意
         var radarChartData = {
-          labels: ["デザイン", "IA", "UX", "マーケティング", "ディレクション", "javascript", "html,css"],
+          labels: ["IA", "マーケティング", "UX", "UI", "html,css", "マネジメント", "ディレクション"],
           datasets: [
             {
               fillColor: "rgba(0,140,232,.3)", // 線で囲まれた部分の色
               strokeColor: "#008ce8", // 線の色
               pointColor: "#fff",  // 点の色
               pointStrokeColor: "#rgb(0,140,232)", // 点を囲む線の色
-              data: [4,4,4,3,4,2,3]
+              data: [4,3,4,4,3,3,4]
             }
           ]
         };
