@@ -846,12 +846,17 @@ footer {
 
 /* line 75, ../scss/_home.scss */
 .about-team li {
-  width: 405px;
   margin: 20px 20px;
   vertical-align: top;
 }
+@media screen and (min-width: 800px) {
+  /* line 75, ../scss/_home.scss */
+  .about-team li {
+    width: 405px;
+  }
+}
 
-/* line 81, ../scss/_home.scss */
+/* line 83, ../scss/_home.scss */
 .about-number {
   font-size: 30px;
   font-family: 'Josefin-Sans', JosefinSansStd-Light, 'Josefin Sans', sans-serif;
@@ -859,28 +864,28 @@ footer {
   display: inline-block;
 }
 
-/* line 88, ../scss/_home.scss */
+/* line 90, ../scss/_home.scss */
 .portfolio-table {
   margin: 0 auto;
   width: 80%;
 }
 
-/* line 93, ../scss/_home.scss */
+/* line 95, ../scss/_home.scss */
 .portfolio-table a {
   /*float:left;*/
 }
 
-/* line 98, ../scss/_home.scss */
+/* line 100, ../scss/_home.scss */
 .works-main {
   margin-bottom: 40px;
 }
 @media screen and (min-width: 800px) {
-  /* line 98, ../scss/_home.scss */
+  /* line 100, ../scss/_home.scss */
   .works-main {
     margin-bottom: 10px;
   }
 }
-/* line 106, ../scss/_home.scss */
+/* line 108, ../scss/_home.scss */
 .works-main img {
   display: block;
   /*text-align: center;*/
@@ -889,26 +894,26 @@ footer {
   margin-bottom: 24px;
 }
 @media screen and (min-width: 800px) {
-  /* line 106, ../scss/_home.scss */
+  /* line 108, ../scss/_home.scss */
   .works-main img {
     width: 500px;
   }
 }
 
 @media screen and (min-width: 800px) {
-  /* line 119, ../scss/_home.scss */
+  /* line 121, ../scss/_home.scss */
   .box-left {
     float: left;
     width: 500px;
   }
 }
 
-/* line 126, ../scss/_home.scss */
+/* line 128, ../scss/_home.scss */
 .works_sub {
   margin-top: 34px;
 }
 @media screen and (min-width: 800px) {
-  /* line 126, ../scss/_home.scss */
+  /* line 128, ../scss/_home.scss */
   .works_sub {
     float: left;
     width: 280px;
@@ -917,29 +922,29 @@ footer {
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 134, ../scss/_home.scss */
+  /* line 136, ../scss/_home.scss */
   .works_sub .wrap-text {
     padding-left: 10px;
   }
 }
 
-/* line 142, ../scss/_home.scss */
+/* line 144, ../scss/_home.scss */
 .works ul, .about ul, .about-team li {
   　display: block;
   text-align: center;
 }
 
-/* line 147, ../scss/_home.scss */
+/* line 149, ../scss/_home.scss */
 .works li, .about li, .about-team li {
   display: inline-block;
 }
 
-/* line 152, ../scss/_home.scss */
+/* line 154, ../scss/_home.scss */
 .works-table {
   text-align: left;
 }
 
-/* line 156, ../scss/_home.scss */
+/* line 158, ../scss/_home.scss */
 .works-meta {
   font-family: verdana, Helvetica, verdana, sans-serif;
   margin-bottom: 40px;
@@ -947,14 +952,14 @@ footer {
   border-bottom: 3px double #CCC;
 }
 @media screen and (min-width: 800px) {
-  /* line 156, ../scss/_home.scss */
+  /* line 158, ../scss/_home.scss */
   .works-meta {
     margin-bottom: 30px;
     padding-bottom: 30px;
   }
 }
 
-/* line 171, ../scss/_home.scss */
+/* line 173, ../scss/_home.scss */
 .works-sub-list {
   margin-bottom: 30px;
 }
