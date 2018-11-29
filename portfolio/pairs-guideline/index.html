@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width maximum-scale=1.0">
+  <title>YUUKI SAWASATO Portfolio Pairs UIガイドライン</title>  
+  <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="../../assets/js/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../assets/slick/slick.css" media="all">
+</head>
+<body>
+
+  <div id="wrap">
+
+<!-- header -->
+<header>
+      <div class="sticky-wrapper">
+        <h1 class="clk_head_top"><a href="../../index.html">YUUKI SAWASATO</a></h1>
+        <nav class="right-align">
+          <ul>
+            <li><a href="../../index.html#about">ABOUT ME</a></li>
+            <li><a href="../../index.html#portfolio">PORTFOLIO</a></li>
+          </ul>
+        </nav>
+</div>    
+</header>
+<!-- //header -->
+
+    <!--contentns-->
+
+    <div class="top-image"><img src="assets/img/pairs-guideline-title.png" alt="Pairsガイドライン タイトル"></div>
+
+    <div class="element">
+      <div id="main">
+
+      <h2 class="category-title">
+        Pairs UIガイドライン策定
+      </h2>
+
+
+
+        <div class="">
+          <p class="margin-b20">
+            UIのトーン&マナーの統一・コンポーネント化することによる開発工数の軽減、ブランドイメージ向上を目的としたプロジェクトです。<br>
+            Pairsでは様々なUIパーツがあり、すべてを整備しきるには時間がかかるため、各UIパーツのサイトへの影響度を精査しフェーズを分け、影響度が高いUIパーツから対応していきました。
+            プロジェクトマネージャーとしてプロジェクト全体の管理をしながら、他デザイナーを率いUIのプロトタイプを作り、エンジニアと実装の相談をしながら進めました。<br>
+            結果として、トーン&マナーの均一化、開発工数を削減することができました。
+          </p>
+        </div>
+
+      <div class="div-title">担当</div>
+      <div>プロジェクトマネージャー、UXUIデザイナー：プロトタイピング、制作ディレクション</div>
+
+      <div class="div-title">期間</div>
+      <div>2016年11月〜2016年12月</div>
+
+
+    <div>
+      <h3 class="group-title">
+        対応範囲・優先度決め
+      </h3>
+      <div class="margin-b20">
+      <p>
+        カラー、フォントサイズ、グロナビ、ボタン、ダイアログ、フォーム、バー、リンク、アイコン、マージンなどたくさんのUIパーツがある中で、
+        すべてを一斉に整備しようとすると時間がかかるため、フェーズに分けて策定することにしました。<br>
+        サイトへの影響度をもとに今回の対応範囲を決定しました。<br><br>
+    
+        <ul>
+          <li>・サイト内での使用箇所が多い</li>
+          <li>・今後の開発での使用頻度が高い</li>
+        </ul><br>
+
+        の観点で精査していきました。<br>
+
+        精査により以下を影響度が高いパーツとして定め、今回の対応範囲として決定しました。<br><br>
+        
+        <ul>
+          <li>・カラー</li>
+          <li>・グローバルナビ</li>
+          <li>・ボタン</li>
+          <li>・ダイアログ</li>
+        </ul>
+      </p>
+      </div>
+      <div class="margin-b20"><img src="assets/img/pairs-guideline-target.png" alt="Pairsガイドライン洗い出し">Pairsガイドラインパーツ洗い出し</div>
+    </div>
+
+
+    <div>
+      <h3 class="group-title">
+        プロトタイピング
+      </h3>
+      <div class="margin-b20">
+      <p>
+         今回の対応範囲に決定したパーツの使用箇所と使用スタイルを洗い出し、最小限のパーツ数に絞っていきました。<br>
+         エンジニアと開発のしやすさや汎用性なども議論していき、実際に反映した時にどこにどう影響が出るかも検証を重ねていきました。
+      </p>
+    </div>
+      <div class="margin-b20"><img src="assets/img/pairs-guideline-fix.png" alt="PairsガイドラインFIX">PairsガイドラインFIX版</div>
+    </div>
+      <p class="margin-b40">
+         その結果、トーン&マナーの均一化、開発工数を削減することができました。また、新しくつくるUIに対してどのコンポーネントを使用するかが明確になったことでコミュニケーションコストを抑えることが出来るようになりました。
+      </p>
+
+
+
+      </div>
+    </div>
+    <!--//contents-->
+
+    <!-- footer -->
+    <footer>
+      <p><small>2009-2018&copy; YUUKI SAWASATO</small></p>
+    </footer>
+    <!-- //footer -->
+
+  </div>
+  <!-- //wrap -->
+
+  <script type="text/javascript" src="../../assets/slick/slick.js"></script>
+  <script type="text/javascript" src="../../assets/js/scripts.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $(".sticky-wrapper").noisy({
+        intensity: 0.2,
+        opacity: 0.06,
+      });
+    });
+    $("#mobile-nav").click(function(e){
+      $(".drawer").toggleClass("active");
+      e.preventDefault();
+      $(".menu-nav").toggleClass("change");      
+    });
+  </script>
+
+</body>
+</html>
