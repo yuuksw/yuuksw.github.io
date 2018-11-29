@@ -222,7 +222,7 @@ nav ul li {
 @media screen and (min-width: 800px) {
   /* line 124, ../scss/_common.scss */
   nav ul li {
-    margin-left: 50px;
+    margin-left: 40px;
   }
 }
 /* line 132, ../scss/_common.scss */
@@ -231,9 +231,9 @@ nav ul li a {
   text-decoration: none;
   /*background: black;*/
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 1.0em;
   padding: 10px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.25);*/
   font-family: 'Josefin Sans', 'Josefin-Sans', sans-serif;
   text-align: center;
   /*background: white;*/
@@ -467,33 +467,39 @@ footer {
 }
 
 /* line 372, ../scss/_common.scss */
+.fs18 {
+  font-size: 18px;
+  line-height: 1.3333;
+}
+
+/* line 377, ../scss/_common.scss */
 .t-center {
   text-align: center;
 }
 
-/* line 382, ../scss/_common.scss */
+/* line 387, ../scss/_common.scss */
 #contents {
   /*width: 90%;*/
   margin: 0 auto;
   padding-bottom: 100px;
 }
 @media screen and (min-width: 800px) {
-  /* line 382, ../scss/_common.scss */
+  /* line 387, ../scss/_common.scss */
   #contents {
     /*width: 900px;*/
   }
 }
-/* line 389, ../scss/_common.scss */
+/* line 394, ../scss/_common.scss */
 #contents .element:last-child {
   /*padding-bottom: 0px;
   margin-bottom: 0px;*/
 }
-/* line 393, ../scss/_common.scss */
+/* line 398, ../scss/_common.scss */
 #contents .element-sec:last-child {
   padding-bottom: 0px;
 }
 
-/* line 398, ../scss/_common.scss */
+/* line 403, ../scss/_common.scss */
 .element {
   /*font-family: verdana, Helvetica, verdana, sans-serif;*/
   font-weight: normal;
@@ -503,43 +509,43 @@ footer {
   width: 90%;
 }
 @media screen and (min-width: 800px) {
-  /* line 398, ../scss/_common.scss */
+  /* line 403, ../scss/_common.scss */
   .element {
     width: 900px;
   }
 }
 
-/* line 410, ../scss/_common.scss */
+/* line 415, ../scss/_common.scss */
 .element-sec {
   padding-bottom: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 410, ../scss/_common.scss */
+  /* line 415, ../scss/_common.scss */
   .element-sec {
     padding-bottom: 40px;
   }
 }
 
-/* line 417, ../scss/_common.scss */
+/* line 422, ../scss/_common.scss */
 .contents-bk {
   background-color: #E8F7F5;
   padding-top: 60px;
 }
 
-/* line 422, ../scss/_common.scss */
+/* line 427, ../scss/_common.scss */
 .top-image {
   position: relative;
   top: -70px;
 }
 @media screen and (min-width: 800px) {
-  /* line 422, ../scss/_common.scss */
+  /* line 427, ../scss/_common.scss */
   .top-image {
     position: relative;
     top: -100px;
   }
 }
 
-/* line 434, ../scss/_common.scss */
+/* line 439, ../scss/_common.scss */
 .name-title {
   font-size: 32px;
   line-height: 1;
@@ -549,13 +555,13 @@ footer {
   font-weight: normal;
   font-family: 'Josefin Sans', 'Josefin-Sans', sans-serif;
 }
-/* line 441, ../scss/_common.scss */
+/* line 446, ../scss/_common.scss */
 .name-title .name-title-explain {
   font-size: 20px;
   line-height: 1.2;
 }
 @media screen and (min-width: 800px) {
-  /* line 434, ../scss/_common.scss */
+  /* line 439, ../scss/_common.scss */
   .name-title {
     font-size: 42px;
     font-weight: normal;
@@ -566,7 +572,7 @@ footer {
   }
 }
 
-/* line 455, ../scss/_common.scss */
+/* line 460, ../scss/_common.scss */
 .sec-title {
   font-size: 28px;
   line-height: 1.3333;
@@ -576,13 +582,13 @@ footer {
   font-weight: normal;
   font-family: 'Josefin Sans', 'Josefin-Sans', sans-serif;
 }
-/* line 462, ../scss/_common.scss */
+/* line 467, ../scss/_common.scss */
 .sec-title .name-title-explain {
   font-size: 20px;
   line-height: 1.2;
 }
 @media screen and (min-width: 800px) {
-  /* line 455, ../scss/_common.scss */
+  /* line 460, ../scss/_common.scss */
   .sec-title {
     font-size: 32px;
     font-weight: normal;
@@ -593,13 +599,13 @@ footer {
   }
 }
 
-/* line 476, ../scss/_common.scss */
+/* line 481, ../scss/_common.scss */
 .sec-title-sub {
   font-size: 16px;
   color: #666666;
 }
 
-/* line 482, ../scss/_common.scss */
+/* line 487, ../scss/_common.scss */
 .category-title {
   font-size: 28px;
   line-height: 1.3333;
@@ -607,13 +613,13 @@ footer {
   margin: 28px 0 23px;
   text-align: center;
 }
-/* line 487, ../scss/_common.scss */
+/* line 492, ../scss/_common.scss */
 .category-title .category-title-explain {
   font-size: 18px;
   line-height: 1.3333;
 }
 @media screen and (min-width: 800px) {
-  /* line 482, ../scss/_common.scss */
+  /* line 487, ../scss/_common.scss */
   .category-title {
     font-size: 42px;
     font-weight: normal;
@@ -623,7 +629,7 @@ footer {
   }
 }
 
-/* line 501, ../scss/_common.scss */
+/* line 506, ../scss/_common.scss */
 .memo-details-title {
   font-weight: bold;
   /*margin-left:15px;*/
@@ -634,7 +640,7 @@ footer {
   margin-bottom: 8px;
 }
 @media screen and (min-width: 800px) {
-  /* line 501, ../scss/_common.scss */
+  /* line 506, ../scss/_common.scss */
   .memo-details-title {
     font-size: 30px;
     font-weight: normal;
@@ -655,14 +661,14 @@ footer {
       margin-bottom: 20px;
     } 
 }*/
-/* line 530, ../scss/_common.scss */
+/* line 535, ../scss/_common.scss */
 .div-title {
   font-size: 18px;
   line-height: 1.3333;
   margin-bottom: 15px;
 }
 @media screen and (min-width: 800px) {
-  /* line 530, ../scss/_common.scss */
+  /* line 535, ../scss/_common.scss */
   .div-title {
     font-size: 16px;
     line-height: 1.5;
@@ -672,7 +678,7 @@ footer {
   }
 }
 
-/* line 541, ../scss/_common.scss */
+/* line 546, ../scss/_common.scss */
 .group-title {
   font-size: 22px;
   text-align: center;
@@ -682,7 +688,7 @@ footer {
   margin-bottom: 20px;
 }
 
-/* line 550, ../scss/_common.scss */
+/* line 555, ../scss/_common.scss */
 .link-title {
   font-size: 20px;
   text-align: center;
@@ -692,28 +698,28 @@ footer {
   margin-bottom: 20px;
 }
 
-/* line 566, ../scss/_common.scss */
+/* line 571, ../scss/_common.scss */
 .detailes-readtext {
   border-bottom: 1px dotted #cccccc;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 566, ../scss/_common.scss */
+  /* line 571, ../scss/_common.scss */
   .detailes-readtext {
     margin-bottom: 60px;
     padding-bottom: 70px;
   }
 }
 
-/* line 576, ../scss/_common.scss */
+/* line 581, ../scss/_common.scss */
 .post-meta {
   display: -webkit-box;
   overflow: hidden;
   font-family: verdana, Helvetica, verdana, sans-serif;
 }
 
-/* line 582, ../scss/_common.scss */
+/* line 587, ../scss/_common.scss */
 .detailes-title-post-meta {
   display: -webkit-box;
   overflow: hidden;
@@ -723,14 +729,14 @@ footer {
   border-bottom: 3px double #cccccc;
 }
 @media screen and (min-width: 800px) {
-  /* line 582, ../scss/_common.scss */
+  /* line 587, ../scss/_common.scss */
   .detailes-title-post-meta {
     margin-bottom: 60px;
     padding-bottom: 60px;
   }
 }
 
-/* line 595, ../scss/_common.scss */
+/* line 600, ../scss/_common.scss */
 .time {
   display: -webkit-box;
   color: #666666;
@@ -738,13 +744,13 @@ footer {
   font-size: 14px;
 }
 @media screen and (min-width: 800px) {
-  /* line 595, ../scss/_common.scss */
+  /* line 600, ../scss/_common.scss */
   .time {
     font-size: 16px;
   }
 }
 
-/* line 605, ../scss/_common.scss */
+/* line 610, ../scss/_common.scss */
 .tag {
   background-color: #bbbbbb;
   color: #ffffff;
@@ -754,27 +760,44 @@ footer {
   margin-left: 6px;
 }
 @media screen and (min-width: 800px) {
-  /* line 605, ../scss/_common.scss */
+  /* line 610, ../scss/_common.scss */
   .tag {
     font-size: 12px;
     padding: 2px 5px;
   }
 }
 
-/* line 618, ../scss/_common.scss */
+/* line 623, ../scss/_common.scss */
 .list_circle {
   list-style-type: circle;
   margin-left: 12%;
 }
 
-/* line 623, ../scss/_common.scss */
+/* line 628, ../scss/_common.scss */
+.list_leftalign p {
+  text-align: left;
+}
+
+/* line 632, ../scss/_common.scss */
 .sub-sec-title {
   margin-bottom: 20px;
 }
 
-/* line 627, ../scss/_common.scss */
+/* line 636, ../scss/_common.scss */
 .ul-lh {
   line-height: 26px;
+}
+
+/* line 640, ../scss/_common.scss */
+.img_change {
+  width: 100%;
+  float: left;
+}
+@media screen and (min-width: 800px) {
+  /* line 640, ../scss/_common.scss */
+  .img_change {
+    width: 50%;
+  }
 }
 
 /* CSS Document */
@@ -826,7 +849,7 @@ footer {
 @media screen and (min-width: 800px) {
   /* line 50, ../scss/_home.scss */
   .about img, .about-team img {
-    width: 100%;
+    width: 110px;
     /*margin-right: 20px;*/
   }
 }
