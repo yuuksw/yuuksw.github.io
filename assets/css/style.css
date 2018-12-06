@@ -138,7 +138,7 @@ header img {
   z-index: 100;
   padding: 10px 20px;
   margin: 0 auto;
-  background-color: #E8F7F5;
+  background-color: rgba(232, 247, 245, 0.75);
 }
 @media screen and (min-width: 800px) {
   /* line 24, ../scss/_common.scss */
