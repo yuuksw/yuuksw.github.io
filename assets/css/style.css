@@ -547,20 +547,7 @@ footer {
   }
 }
 
-/* line 437, ../scss/_common.scss */
-#canvas {
-  margin-left: 50%;
-  height: 320px;
-  width: 300px;
-}
-@media screen and (min-width: 800px) {
-  /* line 437, ../scss/_common.scss */
-  #canvas {
-    margin-left: 5%;
-  }
-}
-
-/* line 451, ../scss/_common.scss */
+/* line 443, ../scss/_common.scss */
 .name-title {
   font-size: 32px;
   line-height: 1;
@@ -570,13 +557,13 @@ footer {
   font-weight: normal;
   font-family: 'Josefin Sans', 'Josefin-Sans', sans-serif;
 }
-/* line 458, ../scss/_common.scss */
+/* line 450, ../scss/_common.scss */
 .name-title .name-title-explain {
   font-size: 20px;
   line-height: 1.2;
 }
 @media screen and (min-width: 800px) {
-  /* line 451, ../scss/_common.scss */
+  /* line 443, ../scss/_common.scss */
   .name-title {
     font-size: 42px;
     font-weight: normal;
@@ -587,7 +574,7 @@ footer {
   }
 }
 
-/* line 472, ../scss/_common.scss */
+/* line 464, ../scss/_common.scss */
 .sec-title {
   font-size: 28px;
   line-height: 1.3333;
@@ -597,13 +584,13 @@ footer {
   font-weight: normal;
   font-family: 'Josefin Sans', 'Josefin-Sans', sans-serif;
 }
-/* line 479, ../scss/_common.scss */
+/* line 471, ../scss/_common.scss */
 .sec-title .name-title-explain {
   font-size: 20px;
   line-height: 1.2;
 }
 @media screen and (min-width: 800px) {
-  /* line 472, ../scss/_common.scss */
+  /* line 464, ../scss/_common.scss */
   .sec-title {
     font-size: 32px;
     font-weight: normal;
@@ -614,13 +601,13 @@ footer {
   }
 }
 
-/* line 493, ../scss/_common.scss */
+/* line 485, ../scss/_common.scss */
 .sec-title-sub {
   font-size: 16px;
   color: #666666;
 }
 
-/* line 499, ../scss/_common.scss */
+/* line 491, ../scss/_common.scss */
 .category-title {
   font-size: 28px;
   line-height: 1.3333;
@@ -628,13 +615,13 @@ footer {
   margin: 28px 0 23px;
   text-align: center;
 }
-/* line 504, ../scss/_common.scss */
+/* line 496, ../scss/_common.scss */
 .category-title .category-title-explain {
   font-size: 18px;
   line-height: 1.3333;
 }
 @media screen and (min-width: 800px) {
-  /* line 499, ../scss/_common.scss */
+  /* line 491, ../scss/_common.scss */
   .category-title {
     font-size: 42px;
     font-weight: normal;
@@ -644,7 +631,7 @@ footer {
   }
 }
 
-/* line 518, ../scss/_common.scss */
+/* line 510, ../scss/_common.scss */
 .memo-details-title {
   font-weight: bold;
   /*margin-left:15px;*/
@@ -655,7 +642,7 @@ footer {
   margin-bottom: 8px;
 }
 @media screen and (min-width: 800px) {
-  /* line 518, ../scss/_common.scss */
+  /* line 510, ../scss/_common.scss */
   .memo-details-title {
     font-size: 30px;
     font-weight: normal;
@@ -676,14 +663,14 @@ footer {
       margin-bottom: 20px;
     } 
 }*/
-/* line 547, ../scss/_common.scss */
+/* line 539, ../scss/_common.scss */
 .div-title {
   font-size: 18px;
   line-height: 1.3333;
   margin-bottom: 15px;
 }
 @media screen and (min-width: 800px) {
-  /* line 547, ../scss/_common.scss */
+  /* line 539, ../scss/_common.scss */
   .div-title {
     font-size: 16px;
     line-height: 1.5;
@@ -693,7 +680,7 @@ footer {
   }
 }
 
-/* line 558, ../scss/_common.scss */
+/* line 550, ../scss/_common.scss */
 .group-title {
   font-size: 22px;
   text-align: center;
@@ -703,7 +690,7 @@ footer {
   margin-bottom: 20px;
 }
 
-/* line 567, ../scss/_common.scss */
+/* line 559, ../scss/_common.scss */
 .link-title {
   font-size: 20px;
   text-align: center;
@@ -713,28 +700,28 @@ footer {
   margin-bottom: 20px;
 }
 
-/* line 583, ../scss/_common.scss */
+/* line 575, ../scss/_common.scss */
 .detailes-readtext {
   border-bottom: 1px dotted #cccccc;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 583, ../scss/_common.scss */
+  /* line 575, ../scss/_common.scss */
   .detailes-readtext {
     margin-bottom: 60px;
     padding-bottom: 70px;
   }
 }
 
-/* line 593, ../scss/_common.scss */
+/* line 585, ../scss/_common.scss */
 .post-meta {
   display: -webkit-box;
   overflow: hidden;
   font-family: verdana, Helvetica, verdana, sans-serif;
 }
 
-/* line 599, ../scss/_common.scss */
+/* line 591, ../scss/_common.scss */
 .detailes-title-post-meta {
   display: -webkit-box;
   overflow: hidden;
@@ -744,14 +731,14 @@ footer {
   border-bottom: 3px double #cccccc;
 }
 @media screen and (min-width: 800px) {
-  /* line 599, ../scss/_common.scss */
+  /* line 591, ../scss/_common.scss */
   .detailes-title-post-meta {
     margin-bottom: 60px;
     padding-bottom: 60px;
   }
 }
 
-/* line 612, ../scss/_common.scss */
+/* line 604, ../scss/_common.scss */
 .time {
   display: -webkit-box;
   color: #666666;
@@ -759,13 +746,13 @@ footer {
   font-size: 14px;
 }
 @media screen and (min-width: 800px) {
-  /* line 612, ../scss/_common.scss */
+  /* line 604, ../scss/_common.scss */
   .time {
     font-size: 16px;
   }
 }
 
-/* line 622, ../scss/_common.scss */
+/* line 614, ../scss/_common.scss */
 .tag {
   background-color: #bbbbbb;
   color: #ffffff;
@@ -775,41 +762,41 @@ footer {
   margin-left: 6px;
 }
 @media screen and (min-width: 800px) {
-  /* line 622, ../scss/_common.scss */
+  /* line 614, ../scss/_common.scss */
   .tag {
     font-size: 12px;
     padding: 2px 5px;
   }
 }
 
-/* line 635, ../scss/_common.scss */
+/* line 627, ../scss/_common.scss */
 .list_circle {
   list-style-type: circle;
   margin-left: 12%;
 }
 
-/* line 640, ../scss/_common.scss */
+/* line 632, ../scss/_common.scss */
 .list_leftalign p {
   text-align: left;
 }
 
-/* line 644, ../scss/_common.scss */
+/* line 636, ../scss/_common.scss */
 .sub-sec-title {
   margin-bottom: 20px;
 }
 
-/* line 648, ../scss/_common.scss */
+/* line 640, ../scss/_common.scss */
 .ul-lh {
   line-height: 26px;
 }
 
-/* line 652, ../scss/_common.scss */
+/* line 644, ../scss/_common.scss */
 .img_change {
   width: 100%;
   float: left;
 }
 @media screen and (min-width: 800px) {
-  /* line 652, ../scss/_common.scss */
+  /* line 644, ../scss/_common.scss */
   .img_change {
     width: 50%;
   }
@@ -1285,9 +1272,21 @@ footer {
   }
 }
 
-/* line 139, ../scss/_about.scss */
-.skill-chart {
+/*.skill-chart{
+  width:300px;
+}*/
+/* line 143, ../scss/_about.scss */
+#canvas {
+  display: block;
+  margin: 0 auto;
+  height: 320px;
   width: 300px;
+}
+@media screen and (min-width: 800px) {
+  /* line 143, ../scss/_about.scss */
+  #canvas {
+    margin-left: 5%;
+  }
 }
 
 /* CSS Document */
